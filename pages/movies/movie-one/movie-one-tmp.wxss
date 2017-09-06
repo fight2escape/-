@@ -1,0 +1,19 @@
+/* pages/movies/movie-one/movie-one-tmp.wxss */
+@import "../stars/star-tmp.wxss";
+
+.movie-one-container {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.movie-one-image {
+  width: 200rpx;
+  height: 270rpx;
+}
+
+.movie-one-title {
+  margin-top: 10px;
+  color: #1f3463;
+  font-size: 26rpx;
+}

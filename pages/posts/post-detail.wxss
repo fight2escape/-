@@ -1,0 +1,89 @@
+/*海报-音乐*/
+
+.detail-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.detail-post {
+  width: 100%;
+  height: 450rpx;
+}
+
+.detail-musicbtn {
+  width: 102rpx;
+  height: 110rpx;
+  position: absolute;
+  top: 170rpx;
+  left: 50%;
+  margin-left: -51rpx;
+  opacity: 0.6;
+}
+
+/*头像日期*/
+
+.detail-header {
+  margin: 0 30rpx;
+}
+
+.detail-user-date {
+  display: flex;
+  flex-direction: row;
+  height: 110rpx;
+  align-items: center;
+  font-size: 24rpx;
+  color: #888;
+}
+
+.detail-user-date image {
+  width: 60rpx;
+  height: 60rpx;
+  margin: 0 20rpx 0 0;
+}
+
+.detail-user {
+  font-size: 32rpx;
+  margin: 0 20rpx 0 0;
+}
+
+.detali-date {
+  margin: 0 0 0 20rpx;
+}
+
+.detail-title {
+  font-size: 36rpx;
+  font-weight: bold;
+  color: #666;
+  margin: 10rpx 0 20rpx 7rpx;
+  line-height: 55rpx;
+  letter-spacing: 5rpx;
+}
+
+/*收藏分享*/
+
+.detail-operation {
+  float: right;
+}
+
+.detail-operation image {
+  width: 95rpx;
+  height: 95rpx;
+  margin-left: 30rpx;
+}
+
+.detail-hr {
+  width: 100%;
+  height: 1px;
+  background-color: #f0f0f0;
+  position: relative;
+  top: 47rpx;
+  z-index: -99;
+}
+
+/*文章内容*/
+
+.detail-content {
+  margin: 30rpx 20rpx 100rpx 20rpx;
+  color: #666;
+  line-height: 46rpx;
+}

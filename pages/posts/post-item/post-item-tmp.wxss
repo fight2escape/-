@@ -1,0 +1,69 @@
+/*文章列表*/
+
+.post-lists {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  background-color: white;
+}
+
+.lists-avatar {
+  display: flex;
+  flex-direction: row;
+  height: 84rpx;
+  align-items: center;
+}
+
+.lists-avatar image {
+  width: 60rpx;
+  height: 60rpx;
+  margin-left: 24rpx;
+}
+
+.lists-avatar text {
+  font-size: 24rpx;
+  color: #666;
+  margin-left: 36rpx;
+}
+
+.post-title {
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 34rpx;
+  margin-left: 20rpx;
+}
+
+.post-post {
+  width: 100%;
+  height: 340rpx;
+}
+
+.post-contain {
+  line-height: 40rpx;
+  padding: 30rpx 20rpx 16rpx;
+  font-size: 26rpx;
+  color: #666;
+}
+
+.post-data, .post-data-one {
+  display: flex;
+  flex-direction: row;
+}
+
+.post-data-one {
+  height: 50rpx;
+  line-height: 50rpx;
+  margin: 0 20rpx;
+  align-items: center;
+}
+
+.post-data-one image {
+  width: 34rpx;
+  height: 34rpx;
+}
+
+.post-data-one text {
+  color: #666;
+  font-size: 22rpx;
+  margin-left: 16rpx;
+}

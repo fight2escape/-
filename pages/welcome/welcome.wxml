@@ -1,0 +1,7 @@
+<view class="welcome-contain">
+  <image src="/images/avatar/4.png" class="user-avatar"></image>
+  <text class="welcome-text">Hello，贰月</text>
+  <view class="welcome-begin" bindtap="onTap">
+    <text>开启小程序之旅</text>
+  </view>
+</view>

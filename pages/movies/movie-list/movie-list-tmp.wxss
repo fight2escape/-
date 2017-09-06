@@ -1,0 +1,42 @@
+/* pages/movies/movie-list/movie-list-tmp.wxss */
+@import "../movie-one/movie-one-tmp.wxss";
+
+.movie-list-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  background-color: white;
+  padding: 0 30rpx;
+}
+
+.movie-list-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 50px;
+  font-size: 24rpx;
+}
+
+.movie-list-title {
+  color: #1f3463;
+}
+
+.movie-list-more {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: blue;
+}
+
+.movie-list-more image {
+  width: 17rpx;
+  height: 17rpx;
+  margin-left: 12rpx;
+}
+
+.movie-list-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

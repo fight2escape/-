@@ -1,0 +1,17 @@
+<import src="/pages/posts/post-item/post-item-tmp.wxml" />
+
+<!--轮播图-->
+<swiper catchtap="onSwiperTap" class="post-swiper" vertical="{{false}}" indicator-dots="true" autoplay="true" interval="1000" duration="300">
+  <block wx:for="{{post_swiper_key}}" wx:for-item="item">
+    <swiper-item>
+      <image src="{{item.headImgSrc}}" data-postId="{{item.postId}}"></image>
+    </swiper-item>
+  </block>
+</swiper>
+
+<!--文章列表-->
+<block wx:for="{{post_key}}" wx:for-item="item">
+  <view catchtap="onPostListTap" data-postId="{{item.postId}}">
+    <template is="post-list-one" data="{{...item}}" />
+  </view>
+</block>

@@ -1,0 +1,10 @@
+
+<!--pages/movies/movie-grid/movie-grid.wxml-->
+<import src="../movie-one/movie-one-tmp.wxml" />
+<template name="movie-grid">
+  <view class="movie-grid-container">
+    <block wx:for="{{subjects}}">
+      <template is="movie-one" data="{{...item}}" />
+    </block>
+  </view>
+</template>

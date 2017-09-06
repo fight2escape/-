@@ -1,0 +1,21 @@
+<import src="movie-list/movie-list-tmp.wxml" />
+<import src="movie-grid/movie-grid-tmp.wxml" />
+
+<!--搜索框-->
+<view class="movie-search-container">
+  <icon type="search" color="blue" size="15"></icon>
+  <input class="movie-search-input" placeholder="奇异博士 盗梦空间" bindfocus="onSearchFocus" bindinput="onInputChange" bindconfirm="onInputConfirm" value="{{keyInputValue}}" />
+  <image wx:if="{{searchPanelShow}}" catchtap="onCloseTap" class="movie-search-close" src="/images/icon/xx.png"></image>
+</view>
+
+<!--搜索结果-->
+<view class="movie-search-panel" wx:if="{{searchPanelShow}}">
+  <template is="movie-grid" data="{{...movieSearchData}}" />
+</view>
+
+<!--三个电影栏目-->
+<view class="movie-container" wx:if="{{movieContainerShow}}">
+  <template is="movie-list" data="{{...movieInTheaters}}" />
+  <template is="movie-list" data="{{...movieComingSoon}}" />
+  <template is="movie-list" data="{{...movieTop250}}" />
+</view>

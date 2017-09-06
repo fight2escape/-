@@ -1,0 +1,21 @@
+<template name="post-list-one">
+  <view class="post-lists">
+    <view class="lists-avatar">
+      <image src="{{avatar}}"></image>
+      <text>{{date}}</text>
+    </view>
+    <text class="post-title">{{title}}</text>
+    <image src="{{imgSrc}}" class="post-post" mode="aspectFill"></image>
+    <text class="post-contain">{{content}}</text>
+    <view class="post-data">
+      <view class="post-data-one">
+        <image src="/images/icon/chat1.png"></image>
+        <text>{{collection}}</text>
+      </view>
+      <view class="post-data-one">
+        <image src="/images/icon/view.png"></image>
+        <text>{{reading}}</text>
+      </view>
+    </view>
+  </view>
+</template>

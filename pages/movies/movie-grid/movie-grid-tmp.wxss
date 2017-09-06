@@ -1,0 +1,15 @@
+/* pages/movies/movie-grid/movie-grid.wxss */
+@import "../movie-one/movie-one-tmp.wxss";
+
+.movie-grid-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: white;
+}
+
+.movie-one-container {
+  margin-bottom: 20px;
+}

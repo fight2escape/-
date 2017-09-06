@@ -1,0 +1,10 @@
+
+<!--pages/movies/movie-one/movie-one-tmp.wxml-->
+<import src="../stars/star-tmp.wxml" />
+<template name="movie-one">
+  <view class="movie-one-container" catchtap="showMovieDetail" data-id="{{ id }}">
+    <image mode="aspectFill" class="movie-one-image" src="{{images.medium}}"></image>
+    <text class="movie-one-title">{{title_less}}</text>
+    <template is="stars" data="{{stars:rating.stars_array,average:rating.average}}" />
+  </view>
+</template>

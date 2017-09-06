@@ -1,0 +1,19 @@
+/* pages/movies/stars/star-tmp.wxss */
+
+.stars-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 6rpx;
+}
+
+.stars-container image {
+  width: 17rpx;
+  height: 17rpx;
+  margin-left: 6rpx;
+}
+
+.stars-score {
+  margin-left: 16rpx;
+  color: #1f3463;
+}

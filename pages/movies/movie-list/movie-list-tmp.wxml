@@ -1,0 +1,17 @@
+
+<!--pages/movies/movie-list/movie-list-tmp.wxml-->
+<import src="../movie-one/movie-one-tmp.wxml" />
+<template name="movie-list">
+  <view class="movie-list-container">
+    <view class="movie-list-header">
+      <text class="movie-list-title">{{title}}</text>
+      <view catchtap="onMoreMovieTap" data-apiurl="{{apiUrl}}" class="movie-list-more">
+        <text>更多</text>
+        <image src="/images/icon/arrow-right.png"></image>
+      </view>
+    </view>
+    <view class="movie-list-row">
+      <template is="movie-one" wx:for="{{subjects}}" wx:for-item="item" data="{{...item}}" />
+    </view>
+  </view>
+</template>

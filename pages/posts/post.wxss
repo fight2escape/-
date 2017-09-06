@@ -1,0 +1,17 @@
+/*文章列表*/
+@import "/pages/posts/post-item/post-item-tmp.wxss";
+
+page {
+  background-color: #e8e8e8;
+}
+
+/*轮播图*/
+
+.post-swiper {
+  height: 584rpx;
+}
+
+.post-swiper image {
+  width: 100%;
+  height: 100%;
+}
